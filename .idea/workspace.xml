@@ -11,6 +11,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
         <option value="Rys86 &lt;turkowski.mariusz@gmail.com&gt;" />
@@ -41,6 +54,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.game.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "settings.editor.selected.configurable": "preferences.sourceCode.Python"
@@ -93,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732055028316</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="event Handler added">
+      <option name="closed" value="true" />
+      <created>1732057168180</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732057168180</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,7 +123,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -110,6 +144,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
     <MESSAGE value="First Commit Screen set" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit Screen set" />
+    <MESSAGE value="event Handler added" />
+    <option name="LAST_COMMIT_MESSAGE" value="event Handler added" />
   </component>
 </project>
