@@ -11,32 +11,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <excluded-from-favorite>
-      <branch-storage>
-        <map>
-          <entry type="REMOTE">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
-              </list>
-            </value>
-          </entry>
-        </map>
-      </branch-storage>
-    </excluded-from-favorite>
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
         <option value="Rys86 &lt;turkowski.mariusz@gmail.com&gt;" />
+        <option value="Mariusz &lt;71464114+rys86@users.noreply.github.com&gt;" />
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Rys86&quot;
-  }
-}</component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {}
+}]]></component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Rys86/platform_game.git&quot;,
@@ -56,7 +41,7 @@
   "keyToString": {
     "Python.game.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "settings.editor.selected.configurable": "preferences.sourceCode.Python"
   },
   "keyToStringList": {
@@ -115,10 +100,56 @@
       <option name="project" value="LOCAL" />
       <updated>1732057168180</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Data File added">
+      <option name="closed" value="true" />
+      <created>1732058818971</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732058818971</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Data File added">
+      <option name="closed" value="true" />
+      <created>1732059108592</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732059108592</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -129,7 +160,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -145,6 +176,7 @@
     <MESSAGE value="First Commit" />
     <MESSAGE value="First Commit Screen set" />
     <MESSAGE value="event Handler added" />
-    <option name="LAST_COMMIT_MESSAGE" value="event Handler added" />
+    <MESSAGE value="Data File added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data File added" />
   </component>
 </project>
