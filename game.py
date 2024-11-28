@@ -11,16 +11,22 @@ class Game:
         # Create a window
         self.screen = pygame.display.set_mode((640,480))
         self.clock = pygame.time.Clock()
+
+        # Add an image
         self.img = pygame.image.load('data/images/clouds/cloud_1.png')
+        self.img.set_colorkey((0,0,0))
+
+        # movement
         self.img_pos = [160,250]
         self.movement = [False,False]
 
 
     def run(self):
         while True:
+            # Movement section
+            self.screen.fill((14,219,248))
+            self.img_pos[1] += (self.movement[1] - self.movement[0]) * 5
             self.screen.blit(self.img,self.img_pos)
-            self.img_pos[1] += self.movement[1]
-            self.screen.blit(self.img,(100,200))
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     pygame.quit()
@@ -28,12 +34,12 @@ class Game:
                 if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_UP:
                         self.movement[0] = True
-                    if event.key == pygame.KEYDOWN:
+                    if event.key == pygame.K_DOWN:
                         self.movement[1] = True
                 if event.type == pygame.KEYUP:
                     if event.key == pygame.K_UP:
                         self.movement[0] = False
-                    if event.key == pygame.KEYDOWN:
+                    if event.key == pygame.K_DOWN:
                         self.movement[1] = False
 
 
