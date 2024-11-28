@@ -116,7 +116,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732059108592</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Movement section added">
+      <option name="closed" value="true" />
+      <created>1732826907534</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1732826907534</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,7 +168,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>
@@ -177,6 +185,7 @@
     <MESSAGE value="First Commit Screen set" />
     <MESSAGE value="event Handler added" />
     <MESSAGE value="Data File added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data File added" />
+    <MESSAGE value="Movement section added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Movement section added" />
   </component>
 </project>
