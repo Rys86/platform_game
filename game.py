@@ -2,8 +2,8 @@ import pygame
 
 import sys
 
-from scripts.utils import load_image, load_images
-from scripts.entities import PhysicsEntiti
+from scripts.utils import load_image, load_images, Animation
+from scripts.entities import PhysicsEntiti, Player
 from scripts.tilemap import Tilemap
 from scripts.clauds import Clauds
 
@@ -37,14 +37,19 @@ class Game:
             'stone'      : load_images('tiles/stone'),
             'player'     : load_image('entities/player.png'),
             'background' : load_image('background.png'),
-            'clauds'     : load_images('clouds')
+            'clauds'     : load_images('clouds'),
+            'player/idle': Animation(load_images('entities/player/idle'), img_dur=6),
+            'player/run': Animation(load_images('entities/player/run'), img_dur=4),
+            'player/jump': Animation(load_images('entities/player/jump')),
+            'player/slide': Animation(load_images('entities/player/jump')),
+            'player/wal_slide': Animation(load_images('entities/player/wall_slide')),
         }
 
         # print(self.assets)
 
         self.clauds = Clauds(self.assets['clauds'], count=16)
 
-        self.player = PhysicsEntiti(self, 'player', (50,50),(8,15))
+        self.player = Player(self, (50,50),(8,15))
 
         self.tilemap = Tilemap(self, tile_size=16)
 
