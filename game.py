@@ -45,13 +45,13 @@ class Game:
             'player/wal_slide': Animation(load_images('entities/player/wall_slide')),
         }
 
-        # print(self.assets)
 
         self.clauds = Clauds(self.assets['clauds'], count=16)
 
         self.player = Player(self, (50,50),(8,15))
 
         self.tilemap = Tilemap(self, tile_size=16)
+        self.tilemap.load('map.json')
 
         self.scroll = [0,0]
 
